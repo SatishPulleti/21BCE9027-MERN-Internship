@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>CSS - Task-2</title>
+    </head>
+    <style>
+        body{
+            padding: 0;
+            margin: 0;
+        }
+        .h{
+            list-style-type: none;
+            background-color: lightgray;
+            overflow: hidden;
+            padding: 0;
+            margin: 0;
+            /* width: 400px; */
+
+        }
+        .hl a{
+            text-decoration: none;
+            display: block;
+            padding: 17px;
+            font-size: 22px;
+            color: blue;
+            border-right: blue 1px solid;
+        }
+        .hl{
+            
+            float: left;
+        }
+        .hl a:hover{
+            background-color: gray;
+            color: white;
+        }
+        .hl a.home{
+            color: white;
+            background-color: gray;
+
+        }
+
+        .v{
+            list-style-type: none;
+            background-color: rgba(0, 255, 255, 0.555);
+            margin: 0;
+            padding: 0;
+            width: 300px;
+        }
+        .vl a{
+            display: block;
+            padding: 17px;
+            text-decoration: none;
+            font-size: 22px;
+            color: blue;
+        }
+        .vl a.home{
+            background-color: rgb(228, 224, 0);
+            color: white;
+        }
+        .vl a:hover{
+            background-color: rgb(228, 224, 0);
+            color: white;
+        }
+    </style>
+    <body>
+        <h1 style="text-align: center;">CSS - Task-2</h1>
+        
+        <h2>Horizontal Navigation Bar</h2>
+        <ul class="h">
+            <li class="hl" id="home"><a href="" class="home">Home</a></li>
+            <li class="hl"><a href="">Java</a></li>
+            <li class="hl"><a href="">HTML</a></li>
+            <li class="hl"><a href="">CSS</a></li>
+        </ul>
+
+        <h2>Vertical Navigation Bar</h2>
+        <ul class="v">
+            <li class="vl" id="home"><a href="" class="home">Home</a></li>
+            <li class="vl"><a href="">Java</a></li>
+            <li class="vl"><a href="">HTML</a></li>
+            <li class="vl"><a href="">CSS</a></li>
+            <li class="vl"><a href="">Bootstrap</a></li>
+        </ul>
+    </body>
+</html>

@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>CSS-Task-6</title>
+        <style>
+            .image{
+                text-align: center;
+            }
+            body{
+                font-size: 20px;
+            }
+            .total{
+                /* background-color: red; */
+                /* margin: 0 auto; */
+                width: 380px;
+                margin: 5% 40% 10% 35%;
+                /* text-align: center; */
+            }
+            .in{
+                width: 98%;
+                padding: 7px;
+            }
+            .but{
+                width: 103%;
+                background-color: green;
+                color: white;
+                border: 1px solid;
+                padding: 7px;
+                cursor: pointer;
+            }
+            .last{
+                display: flex;
+                flex-wrap: wrap;
+                justify-content: space-between;
+            }
+            .cancel{
+                background-color: red;
+                color: white;
+                border: 1px solid;
+                padding: 10px;
+                border-radius: 10px;
+                cursor: pointer;
+            }
+            label{
+                font-weight: bold;
+            }
+            
+        </style>
+    </head>
+    <body>
+        <div class="total">
+            <div class="image"><img src="./profile.png" alt="Profile_img"></div>
+            <form action="">
+                <label for="name">Username</label>
+                <br>
+                <input type="text" name="name" class="in" placeholder="Enter Username">
+                <br><br>
+                <label for="pass">Password</label>
+                <br>
+                <input type="password" name="pass" class="in" placeholder="Enter Password">
+                <br><br>
+                <input type="submit" value="Login" class="but">
+                <br><br>
+                <input type="checkbox">Remember me
+            </form>
+            <br>
+            <div class="last">
+                <div><button class="cancel">Cancel</button></div>
+                <div>Forgot <u>password?</u></div>
+            </div>
+        </div>
+    </body>
+</html>

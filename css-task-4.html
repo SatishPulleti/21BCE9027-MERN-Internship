@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>CSS - Task-4</title>
+        <style>
+            #mn{
+                height: 30px;
+                width: 120px;
+                padding: 10px 10px 10px 20px;
+                border-radius: 10px;
+                font-size: 20px;
+                position: absolute;
+                left: -100px;
+                transition: 0.3s;
+                display: block;
+                color: white;
+            }
+            #mn:hover{
+                left: -10px;
+                cursor: pointer;
+            }
+            .green{
+                background-color: green;
+                top: 20px;
+            }
+            .blue{
+                background-color: blue;
+                top: 80px;
+            }
+            .read{
+                background-color: red;
+                top: 140px;
+            }
+            .gray{
+                background-color: gray;
+                top: 200px;
+            }
+            .txt{
+                margin-left: 180px;
+            }
+        </style>
+    </head>
+    <body>
+        <h1 style="text-align: center;">CSS-Task-4</h1>
+        <div>
+            <div class="green" id="mn">Home</div>
+            <div class="blue" id="mn">HTML</div>
+            <div class="read" id="mn">CSS</div>
+            <div class="gray" id="mn">Java</div>
+        </div>
+        <div class="txt">
+            <h3>Hoverable sidenav buttons</h3>
+            <p>Hover over the buttons in the left side navigation to open them.</p>
+        </div>
+    </body>
+</html>

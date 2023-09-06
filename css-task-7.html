@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>CSS-Task-7</title>
+        <style>
+            body{
+                font-size: 20px;
+            }
+            label{
+                display: inline-block;
+                width: 135px;
+            }
+            form{
+                background-color: rgba(117,32,63,255);
+                width: 400px;
+                color: white;
+                padding: 20px 80px;
+                margin: 0 auto;
+                
+            }
+            .main{
+                background-color: rgba(162,43,85,255);
+                width: 700px;
+                padding: 20px 50px;
+                margin: 0 auto;
+            }
+            .in,select{
+                padding: 5px;
+            }
+            .but{
+                width: 95%;
+                padding: 10px;
+                border-radius: 7px;
+                border: 1px solid rgba(117,32,63,255);
+                font-size: 17px;
+                font-weight: bold;
+                cursor: pointer;
+            }
+        </style>
+    </head>
+    <body>
+        <h1 style="text-align: center;">CSS-Task-7</h1>
+        <div class="main">
+            <form>
+                <label for="name">Name:</label>
+                <input type="text" name="name" class="in" placeholder="your name">
+                <br><br>
+                <label for="">Email:</label>
+                <input type="email" class="in" placeholder="your email">
+                <br><br>
+                <label for="">Password:</label>
+                <input type="password" class="in">
+                <br><br>
+                <label for="">Phone Number:</label>
+                <input type="number" class="in">
+                <br><br>
+                <label for="">Gender:</label>
+                Male:<input type="radio" class="rad" name="gender"> &nbsp;
+                Female:<input type="radio" class="rad" name="gender">&nbsp;
+                Other:<input type="radio" class="rad" name="gender">
+                <br><br>
+                <label for="">Language:</label>
+                <select name="" id="">
+                    <option selected>Select language</option>
+                    <option>English</option>
+                    <option>Telugu</option>
+                    <option>Hindi</option>
+                    <option>Tamil</option>
+                    <option>Kannada</option>
+                    <option>French</option>
+                </select>
+                <br><br>
+                <label for="">Zip Code:</label>
+                <input type="text" class="in">
+                <br><br>
+                <label for="">About:</label>
+                <textarea name="" id="" cols="30" rows="3" placeholder="Write about yourself"></textarea>
+                <br><br>
+                <input type="submit" value="Register" class="but">
+            </form>
+        </div>
+    </body>
+</html>
